@@ -15,7 +15,7 @@ Este repositorio contiene código para detectar puntos de referencia faciales ut
 
 Para ejecutar la detección de puntos de referencia, necesitas tener los modelos preentrenados y el conjunto de datos. Sigue estos pasos:
 s
-1. **Prepara el conjunto de datos**: El conjunto de datos usado fue [CatFLW]https://github.com/martvelge/CatFLW. Está compuesto por imágenes y sus respectivas etiquetas, logrando un total de 48 punto faciales.
+1. **Prepara el conjunto de datos**: El conjunto de datos usado fue [CatFLW](https://github.com/martvelge/CatFLW). Está compuesto por imágenes y sus respectivas etiquetas, logrando un total de 48 punto faciales.
 
 2. **Carga los Modelos Preentrenados**: Utiliza los scripts proporcionados para cargar los modelos preentrenados. Asegúrate de que las rutas a los modelos sean correctas. Puedes descargar los modelos desde [este enlace](https://drive.google.com/drive/folders/1eQW7rFMoDueqHhy4II3tgzoYmRCm481e?usp=sharing). En cada carpeta hay un script que está comentado de modo que se pueda entender el proceso que se llevó a cabo para el entrenamiento de cada modelo y para el uso de los mismos. En este repositorio se presentan solo las mejores versiones obtenidas en el desarrollo del proyecto.
 3. **Ejecuta los Jupyter Notebooks**: Abre los Jupyter Notebooks en el directorio `EnsamblajeModelos` para ensamblar y evaluar los modelos.
