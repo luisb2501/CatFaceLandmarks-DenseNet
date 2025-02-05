@@ -17,7 +17,7 @@ Para ejecutar la detección de puntos de referencia, necesitas tener los modelos
 
 1. **Prepara el conjunto de datos**: Coloca tus imágenes en un directorio y asegúrate de tener archivos JSON correspondientes con las anotaciones de los puntos de referencia.
 
-2. **Carga los Modelos Preentrenados**: Utiliza los scripts proporcionados para cargar los modelos preentrenados. Asegúrate de que las rutas a los modelos sean correctas.
+2. **Carga los Modelos Preentrenados**: Utiliza los scripts proporcionados para cargar los modelos preentrenados. Asegúrate de que las rutas a los modelos sean correctas. Puedes descargar los modelos desde [este enlace](https://drive.google.com/drive/folders/1eQW7rFMoDueqHhy4II3tgzoYmRCm481e?usp=sharing).
 
 3. **Ejecuta los Jupyter Notebooks**: Abre los Jupyter Notebooks en el directorio `EnsamblajeModelos` para entrenar y evaluar los modelos.
 
@@ -30,19 +30,39 @@ DenseNet121-Landmark-Detection/
 ├── EnsamblajeModelos/
 │   ├── LandmarkDetectorV2.ipynb
 │   ├── LandmarkDetectorV3.ipynb
-│   └── LandmarkDetectorV4.ipynb
+│   ├── LandmarkDetectorV4.ipynb
+│   ├── Ensamblaje_Modelo_1.pth
+│   ├── Ensamblaje_Modelo_2.pth
+│   ├── Ensamblaje_Modelo_3.pth
 ├── FaceDetector/
-│   └── FaceDetector.ipynb
+│   ├── FaceDetector.ipynb
+│   ├── FaceDetector_V3.pth
 ├── Landmarks_Optimizadores/
 │   ├── ADAM/
-│   │   └── ADAM.ipynb
+│   │   ├── ADAM.ipynb
+│   │   ├── EarLeftLandmarks_V2.pth
+│   │   ├── EarRightLandmarks_V2.pth
+│   │   ├── NoseAreaLandmarks_V2.pth
+│   │   ├── EyeLeftLandmarks_V2.pth
+│   │   ├── EyeRightLandmarks_V2.pth
+│   ├── ADAMax/
+│   │   ├── ADAMax.ipynb
+│   │   ├── EarLeftLandmarks_V3.pth
+│   │   ├── EarRightLandmarks_V3.pth
+│   │   ├── NoseAreaLandmarks_V3.pth
+│   │   ├── EyeLeftLandmarks_V3.pth
+│   │   ├── EyeRightLandmarks_V3.pth
 │   ├── ADAMW/
-│   │   └── ADAMW.ipynb
-│   └── ADAMax/
-│       └── ADAMax.ipynb
+│   │   ├── ADAMW.ipynb
+│   │   ├── EarLeftLandmarks_V4.pth
+│   │   ├── EarRightLandmarks_V4.pth
+│   │   ├── NoseAreaLandmarks_V4.pth
+│   │   ├── EyeLeftLandmarks_V4.pth
+│   │   ├── EyeRightLandmarks_V4.pth
 ├── RegionDetector/
-│   └── RegionDetector.ipynb
-└──  README.md
+│   ├── RegionDetector.ipynb
+│   ├── RegionDetector_V2.pth
+└── README.md
 
 ```
 
